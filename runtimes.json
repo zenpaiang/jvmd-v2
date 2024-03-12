@@ -1,0 +1,31 @@
+{
+    "win-x64": [
+        {"friendlyName": "Java 8", "name": "java8", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java8.zip", "sha1": "6052de66fa6e661d65bbbbfec664c396e2742b14"},     
+        {"friendlyName": "Java 11", "name": "java11", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java11.zip", "sha1": "3daac91aeb97eab203db7bd9fa9ef48cbf26c73d"},
+        {"friendlyName": "Java 17", "name": "java17", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java17.zip", "sha1": "3fb73696a58c240de0b2a5fff6e17a525f796f88"},
+        {"friendlyName": "Java 18", "name": "java18", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java18.zip", "sha1": "c7ad79ed65ce6dee4dc92f0ef9daf10ed51a35d1"},
+        {"friendlyName": "Java 19", "name": "java19", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java19.zip", "sha1": "5fc0c1bc9f588839eef9700efeceaf01ff755a43"},
+        {"friendlyName": "Java 20", "name": "java20", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java20.zip", "sha1": "a2ef04a109a8f7a5e1b720ed04371496f268723d"},
+        {"friendlyName": "Java 21", "name": "java21", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/win-x64/java21.zip", "sha1": "404631773d339a6f4496439a7be3832f4c1408b8"}
+    ],
+
+    "linux-x64": [
+        {"friendlyName": "Java 8", "name": "java8", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java8.zip", "sha1": "2a727aef72ca7b1fc2542a15859a47e4cf028c39"},     
+        {"friendlyName": "Java 11", "name": "java11", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java11.zip", "sha1": "6b42806757545c7e2545c5d266425286624ff1fa"},
+        {"friendlyName": "Java 17", "name": "java17", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java17.zip", "sha1": "aee81b11c8ad4fb2dcdcbb6281453c90d33f1513"},
+        {"friendlyName": "Java 18", "name": "java18", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java18.zip", "sha1": "4b15faf869d0d74d4fbc37fab13e4fafaaef480a"},
+        {"friendlyName": "Java 19", "name": "java19", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java19.zip", "sha1": "b52bf9d0a63ed4601b936a97ea6af746aeddacb1"},
+        {"friendlyName": "Java 20", "name": "java20", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java20.zip", "sha1": "93581ba7c65cc731ee35f8e4fe5a26b9a200e615"},
+        {"friendlyName": "Java 21", "name": "java21", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-x64/java21.zip", "sha1": "d54668a43f4ecb2b6b5d799216632c511d513bcb"}
+    ],
+
+    "linux-arm64": [
+        {"friendlyName": "Java 8", "name": "java8", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java8.zip", "sha1": "abf392c7df1e5812c3b6ed6ffee5e6fe78812db6"},     
+        {"friendlyName": "Java 11", "name": "java11", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java11.zip", "sha1": "d29e6c42a18030bdf7cf08e4bb1cae4f20b012a6"},
+        {"friendlyName": "Java 17", "name": "java17", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java17.zip", "sha1": "aa2ec438d846acc1aaf166721b52fcaa5e5f2ab4"},
+        {"friendlyName": "Java 18", "name": "java18", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java18.zip", "sha1": "1e4d432b0cb3114c6c7e176763880d97ec4649c2"},
+        {"friendlyName": "Java 19", "name": "java19", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java19.zip", "sha1": "60746f45e9c497d770da891b97b018ef25357c28"},
+        {"friendlyName": "Java 20", "name": "java20", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java20.zip", "sha1": "70653d756a93fb6e3e7a668c9f6875a99d939e14"},
+        {"friendlyName": "Java 21", "name": "java21", "path": "https://github.com/ZenpaiAng/jvmd-v2/raw/main/runtimes/linux-arm64/java21.zip", "sha1": "e9a474c857a9df144b59446935148807f9f9990e"}
+    ]
+}
