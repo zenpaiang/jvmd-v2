@@ -8,7 +8,7 @@ import os
 
 if not sys.maxsize > pow(2, 32): 
     print("jvmd-v2 has dropped support for 32-bit systems.")
-    print("please download jvmd-v1 from https://github.com/ZenpaiAng/jvmd.")
+    print("please download jvmd-v1 from https://github.com/zenpaiang/jvmd.")
     sys.exit()
     
 def menu(options: list[str]) -> int:
@@ -42,7 +42,7 @@ def downloadVerify(url: str, sha1: str) -> tuple[bytes, bool, bool]:
 
 # Download runtimes index
 
-runtimesIndexResp = download("https://raw.githubusercontent.com/ZenpaiAng/jvmd-v2/main/runtimes.json")
+runtimesIndexResp = download("https://raw.githubusercontent.com/zenpaiang/jvmd-v2/main/runtimes.json")
 
 if runtimesIndexResp[1]:
     runtimesIndex = json.loads(runtimesIndexResp[0])
