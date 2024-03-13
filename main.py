@@ -50,9 +50,15 @@ else:
     print("error downloading runtimes index")
     sys.exit()
     
-runtimeIndexType = "win-x64" if platform.system() == "Windows" else \
-                   "linux-arm64" if platform.system() == "Linux" and platform.machine() in ["aarch64_be", "aarch64", "armv8b", "armv8l"] else \
-                   "linux-x64" if platform.system() == "Linux" and platform.machine() == "x86_64" else (print("jvmd: unsupported linux architecture"), sys.exit())
+if platform.system() == "Windows":
+    runtimeIndexType = "win-x64"
+elif platform.system() == "Linux" and platform.machine() in ["aarch64_be", "aarch64", "armv8b", "armv8l"]:
+    runtimeIndexType = "linux-arm64"
+elif platform.system() == "Linux" and platform.machine() == "x86_64":
+    runtimeIndexType = "linux-x64"
+else:
+    print("jvmd: unsupported linux architecture")
+    sys.exit()
     
 version = menu([runtime["friendlyName"] for runtime in runtimesIndex[runtimeIndexType]])
 
