@@ -13,3 +13,7 @@ support for 32-bit OSes has been dropped
 # usage 
 
 download a prebuilt binary from the releases page and run it
+
+# runtimes
+
+runtimes are from [adoptium](https://adoptium.net)'s website and are all unchanged
