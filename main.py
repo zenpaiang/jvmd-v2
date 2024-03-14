@@ -57,7 +57,7 @@ elif platform.system() == "Linux" and platform.machine() in ["aarch64_be", "aarc
 elif platform.system() == "Linux" and platform.machine() == "x86_64":
     runtimeIndexType = "linux-x64"
 else:
-    print("jvmd: unsupported linux architecture")
+    print("jvmd: unsupported operating system")
     sys.exit()
     
 version = menu([runtime["friendlyName"] for runtime in runtimesIndex[runtimeIndexType]])
